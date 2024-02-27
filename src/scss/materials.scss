@@ -1,0 +1,161 @@
+// Import modules
+@import './mixins';
+@import './variables';
+
+#requirements-container {
+  height: 100%;
+  width: 350px;
+}
+
+#requirements {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 4px 0 0 0;
+  bottom: 0;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
+  height: 98vh;
+  overflow-y: scroll;
+  position: fixed;
+
+  h2 {
+    color: $cyan;
+  }
+}
+
+.materials {
+  background: $gray;
+  border-radius: 0 0 4px 4px;
+  box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+#requirements,
+.materials {
+  padding: 0.25rem;
+
+  div, li {
+    border-radius: 4px;
+    box-shadow: $shadow-inactive;
+    list-style-type: none;
+    margin: 0.25rem 0;
+    padding: 0.35rem;
+
+    .quantity {
+      font-size: 0.75rem;
+      font-style: italic;
+    }
+  }
+
+  [class^='legiana']:not(.legiana-gem),
+  .machalite-ore,
+  [class^='tzitzi-ya-ku'] {
+    @include material-borders($blue);
+    background: $blue;
+    color: #fff;
+  }
+
+  .fertile-mud {
+    @include material-borders($brown);
+    background: $brown;
+    color: #fff;
+  }
+
+  [class^='diablos'],
+  [class^='jyuratodus'],
+  .zenny {
+    @include material-borders($gold);
+    background: $gold;
+  }
+
+  .ancient-bone,
+  .kelbi-horn,
+  [class^='rathian'],
+  .warm-pelt {
+    @include material-borders($green);
+    background: $green;
+  }
+
+  [class^='pukei-pukei'] {
+    @include material-borders($lime);
+    background: $lime;
+  }
+
+  [class^='gastrodon'] {
+    @include material-borders($maroon);
+    background: $maroon;
+  }
+
+  .dragonite-ore,
+  .mosswine {
+    @include material-borders($olive);
+    background: $olive;
+    color: #fff;
+  }
+
+  .bird-wyvern-gem,
+  .legiana-gem {
+    @include material-borders($periwinkle);
+    background: $periwinkle;
+  }
+
+  [class^='anjanath'] {
+    @include material-borders($pink);
+    background: $pink;
+  }
+
+  .poison-sac {
+    @include material-borders($purple);
+    background: $purple;
+  }
+
+  .flame-sac,
+  [class^='rathalos'],
+  .rath-wingtalon,
+  [class^='shamos'] {
+    @include material-borders($red);
+    background: $red;
+    color: #fff;
+  }
+
+  [class^='girros']:not(.girros-fang),
+  [class^='hornetaur'],
+  .iron-ore,
+  .lightcrystal,
+  .piercing-claw,
+  .sharp-claw {
+    @include material-borders($silver);
+    background: $silver;
+  }
+
+  [class^='tobi-kadachi'],
+  .wyvern-gem {
+    @include material-borders($sky);
+    background: $sky;
+  }
+
+  .appreciation-ticket,
+  [class^='barroth'],
+  [class^='gajau'],
+  .girros-fang,
+  .high-quality-pelt,
+  [class*='jagras'],
+  [class^='kestodon'],
+  [class^='kulu-ya-ku'],
+  .monster-bone-plus,
+  [class^='vespoid'],
+  [class^='wingdrake'] {
+    @include material-borders($tan);
+    background: $tan;
+  }
+
+  .electro-sac,
+  .monster-bone-l,
+  .monster-bone-m,
+  .monster-bone-s {
+    @include material-borders($yellow);
+    background: $yellow;
+  }
+
+  .earth-crystal {
+    @include material-borders(#fff);
+    background: #fff;
+  }
+}

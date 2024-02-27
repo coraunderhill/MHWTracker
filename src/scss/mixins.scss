@@ -1,0 +1,8 @@
+// Import modules
+@use 'sass:color';
+
+/// Creates a lighter top and darker bottom border
+@mixin material-borders($color) {
+  border-bottom: 1px solid color.scale($color, $lightness: -30%);
+  border-top: 1px solid color.scale($color, $lightness: 25%);
+}
