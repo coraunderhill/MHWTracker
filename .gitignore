@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+._*
+
+# Node
+.npm
+node_modules/
+
+# Windows
+[Dd]esktop.ini
+Thumbs.db
+Thumbs.db:encryptable
