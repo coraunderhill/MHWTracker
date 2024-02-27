@@ -1,0 +1,18 @@
+{
+  "plugins": ["@babel/syntax-dynamic-import"],
+  "presets": [
+    "airbnb",
+    [
+      "@babel/preset-env",
+      {
+        "modules": false
+      }
+    ],
+    [
+      "@babel/preset-react",
+      {
+        "runtime": "automatic"
+      }
+    ]
+  ]
+}
