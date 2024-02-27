@@ -1,0 +1,77 @@
+{
+  "name": "Kulu",
+  "defense": 10,
+  "fire": 0,
+  "water": -3,
+  "thunder": 0,
+  "ice": 1,
+  "dragon": 0,
+  "items": [
+    {
+      "slot": "head",
+      "name": "Kulu Headpiece",
+      "materials": [
+        { "name": "Kulu-Ya-Ku Scale", "quantity": 2 },
+        { "name": "Kulu-Ya-Ku Hide", "quantity": 1 },
+        { "name": "Kulu-Ya-Ku Plume", "quantity": 1 },
+        { "name": "Zenny", "quantity": 200 }
+      ],
+      "skills": [
+        { "name": "Fire Resistance", "level": 1 }
+      ]
+    },
+    {
+      "slot": "torso",
+      "name": "Kulu Mail",
+      "materials": [
+        { "name": "Kulu-Ya-Ku Hide", "quantity": 2 },
+        { "name": "Kulu-Ya-Ku Plume", "quantity": 1 },
+        { "name": "Kulu-Ya-Ku Beak", "quantity": 1 },
+        { "name": "Machalite Ore", "quantity": 2 },
+        { "name": "Zenny", "quantity": 200 }
+      ],
+      "skills": [
+        { "name": "Stamina Surge", "level": 1 }
+      ]
+    },
+    {
+      "slot": "arms",
+      "name": "Kulu Vambraces",
+      "materials": [
+        { "name": "Kulu-Ya-Ku Scale", "quantity": 2 },
+        { "name": "Kulu-Ya-Ku Hide", "quantity": 1 },
+        { "name": "Iron Ore", "quantity": 3 },
+        { "name": "Zenny", "quantity": 200 }
+      ],
+      "skills": [
+        { "name": "Pro Transporter", "level": 1 }
+      ]
+    },
+    {
+      "slot": "waist",
+      "name": "Kulu Coil",
+      "materials": [
+        { "name": "Kulu-Ya-Ku Hide", "quantity": 2 },
+        { "name": "Kulu-Ya-Ku Beak", "quantity": 1 },
+        { "name": "Wingdrake Hide", "quantity": 2 },
+        { "name": "Zenny", "quantity": 200 }
+      ],
+      "skills": [
+        { "name": "Item Prolonger", "level": 1 }
+      ]
+    },
+    {
+      "slot": "legs",
+      "name": "Kulu Greaves",
+      "materials": [
+        { "name": "Kulu-Ya-Ku Hide", "quantity": 2 },
+        { "name": "Kulu-Ya-Ku Scale", "quantity": 3 },
+        { "name": "Wingdrake Hide", "quantity": 2 },
+        { "name": "Zenny", "quantity": 200 }
+      ],
+      "skills": [
+        { "name": "Critical Eye", "level": 1 }
+      ]
+    }
+  ]
+}

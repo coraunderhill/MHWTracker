@@ -1,0 +1,17 @@
+{
+  "name": "Vespoid",
+  "defense": 8,
+  "fire": -2,
+  "water": 1,
+  "thunder": 1,
+  "ice": 1,
+  "dragon": 2,
+  "items": [{
+    "slot": "head",
+    "name": "Vespoid Helm",
+    "materials": [
+      { "name": "Vespoid Shell", "quantity": 2 },
+      { "name": "Iron Ore", "quantity": 2 }
+    ]
+  }]
+}

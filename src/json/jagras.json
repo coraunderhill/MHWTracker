@@ -1,0 +1,81 @@
+{
+  "name": "Jagras",
+  "defense": 8,
+  "fire": -2,
+  "water": 2,
+  "thunder": -1,
+  "ice": -1,
+  "dragon": 1,
+  "items": [
+    {
+      "slot": "head",
+      "name": "Jagras Helm",
+      "materials": [
+        { "name": "Great Jagras Hide", "quantity": 2 },
+        { "name": "Great Jagras Mane", "quantity": 2 },
+        { "name": "Great Jagras Claw", "quantity": 2 },
+        { "name": "Ancient Bone", "quantity": 1 },
+        { "name": "Zenny", "quantity": 200 }
+      ],
+      "skills": [
+        { "name": "Speed Eating", "level": 1 }
+      ]
+    },
+    {
+      "slot": "torso",
+      "name": "Jagras Mail",
+      "materials": [
+        { "name": "Great Jagras Hide", "quantity": 2 },
+        { "name": "Great Jagras Claw", "quantity": 1 },
+        { "name": "Great Jagras Scale", "quantity": 2 },
+        { "name": "Monster Bone S", "quantity": 3 },
+        { "name": "Zenny", "quantity": 200 }
+      ],
+      "skills": [
+        { "name": "Intimidator", "level": 1 }
+      ]
+    },
+    {
+      "slot": "arms",
+      "name": "Jagras Vambraces",
+      "materials": [
+        { "name": "Great Jagras Hide", "quantity": 2 },
+        { "name": "Great Jagras Mane", "quantity": 2 },
+        { "name": "Great Jagras Claw", "quantity": 2 },
+        { "name": "Ancient Bone", "quantity": 1 },
+        { "name": "Zenny", "quantity": 200 }
+      ],
+      "skills": [
+        { "name": "Palico Rally", "level": 1 }
+      ]
+    },
+    {
+      "slot": "waist",
+      "name": "Jagras Coil",
+      "materials": [
+        { "name": "Great Jagras Hide", "quantity": 1 },
+        { "name": "Great Jagras Mane", "quantity": 1 },
+        { "name": "Great Jagras Scale", "quantity": 2 },
+        { "name": "Sharp Claw", "quantity": 2 },
+        { "name": "Zenny", "quantity": 200 }
+      ],
+      "skills": [
+        { "name": "Fortify", "level": 1 }
+      ]
+    },
+    {
+      "slot": "legs",
+      "name": "Jagras Greaves",
+      "materials": [
+        { "name": "Great Jagras Scale", "quantity": 1 },
+        { "name": "Great Jagras Hide", "quantity": 1 },
+        { "name": "Great Jagras Mane", "quantity": 1 },
+        { "name": "Jagras Scale", "quantity": 2 },
+        { "name": "Zenny", "quantity": 200 }
+      ],
+      "skills": [
+        { "name": "Speed Crawler", "level": 1 }
+      ]
+    }
+  ]
+}

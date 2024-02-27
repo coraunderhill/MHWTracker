@@ -1,0 +1,19 @@
+{
+  "name": "Kadachi",
+  "defense": 16,
+  "fire": 0,
+  "water": -3,
+  "thunder": 3,
+  "ice": 0,
+  "dragon": 0,
+  "items": [{
+    "slot": "head",
+    "name": "Kadachi Helm",
+    "materials": [
+      { "name": "Tobi-Kadachi Pelt", "quantity": 2 },
+      { "name": "Tobi-Kadachi Electrode", "quantity": 2 },
+      { "name": "Tobi-Kadachi Claw", "quantity": 1 },
+      { "name": "Electro Sac", "quantity": 1 }
+    ]
+  }]
+}

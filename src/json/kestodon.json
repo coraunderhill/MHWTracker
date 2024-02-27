@@ -1,0 +1,23 @@
+{
+  "name": "Kestodon",
+  "defense": 12,
+  "fire": 4,
+  "water": 0,
+  "thunder": 0,
+  "ice": 0,
+  "dragon": 0,
+  "items": [
+    {
+      "slot": "head",
+      "name": "Kestodon Guards",
+      "materials": [
+        { "name": "Kestodon Shell", "quantity": 6 },
+        { "name": "Kestodon Scalp", "quantity": 3 },
+        { "name": "Zenny", "quantity": 200 }
+      ],
+      "skills": [
+        { "name": "Affinity Sliding", "level": 1 }
+      ]
+    }
+  ]
+}

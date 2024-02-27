@@ -1,0 +1,79 @@
+{
+  "name": "Pukei",
+  "defense": 12,
+  "fire": 0,
+  "water": 3,
+  "thunder": -3,
+  "ice": 0,
+  "dragon": 1,
+  "items": [
+    {
+      "slot": "head",
+      "name": "Pukei Hood",
+      "materials": [
+        { "name": "Pukei-Pukei Shell", "quantity": 2 },
+        { "name": "Pukei-Pukei Tail", "quantity": 1 },
+        { "name": "Pukei-Pukei Quill", "quantity": 2 },
+        { "name": "Machalite Ore", "quantity": 2 },
+        { "name": "Zenny", "quantity": 500 }
+      ],
+      "skills": [
+        { "name": "Survival Expert", "level": 1 }
+      ]
+    },
+    {
+      "slot": "torso",
+      "name": "Pukei Mail",
+      "materials": [
+        { "name": "Pukei-Pukei Scale", "quantity": 2 },
+        { "name": "Pukei-Pukei Shell", "quantity": 1 },
+        { "name": "Iron Ore", "quantity": 3 },
+        { "name": "Zenny", "quantity": 500 }
+      ],
+      "skills": [
+        { "name": "Item Prolonger", "level": 1 }
+      ]
+    },
+    {
+      "slot": "arms",
+      "name": "Pukei Vambraces",
+      "materials": [
+        { "name": "Pukei-Pukei Scale", "quantity": 2 },
+        { "name": "Pukei-Pukei Shell", "quantity": 1 },
+        { "name": "Poison Sac", "quantity": 1 },
+        { "name": "Zenny", "quantity": 500 }
+      ],
+      "skills": [
+        { "name": "Poison Resistance", "level": 1 }
+      ]
+    },
+    {
+      "slot": "waist",
+      "name": "Pukei Coil",
+      "materials": [
+        { "name": "Pukei-Pukei Shell", "quantity": 3 },
+        { "name": "Pukei-Pukei Tail", "quantity": 1 },
+        { "name": "Pukei-Pukei Sac", "quantity": 1 },
+        { "name": "Poison Sac", "quantity": 1 },
+        { "name": "Zenny", "quantity": 500 }
+      ],
+      "skills": [
+        { "name": "Poison Attack", "level": 1 }
+      ]
+    },
+    {
+      "slot": "legs",
+      "name": "Pukei Greaves",
+      "materials": [
+        { "name": "Pukei-Pukei Shell", "quantity": 2 },
+        { "name": "Pukei-Pukei Sac", "quantity": 1 },
+        { "name": "Pukei-Pukei Scale", "quantity": 2 },
+        { "name": "Monster Bone M", "quantity": 1 },
+        { "name": "Zenny", "quantity": 500 }
+      ],
+      "skills": [
+        { "name": "Botanist", "level": 1 }
+      ]
+    }
+  ]
+}

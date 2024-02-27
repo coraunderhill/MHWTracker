@@ -1,0 +1,19 @@
+{
+  "name": "Rathian",
+  "defense": 22,
+  "fire": 2,
+  "water": 0,
+  "thunder": -2,
+  "ice": 0,
+  "dragon": -3,
+  "items": [{
+    "slot": "head",
+    "name": "Rathian Helm",
+    "materials": [
+      { "name": "Rathian Shell", "quantity": 2 },
+      { "name": "Rathian Scale", "quantity": 3 },
+      { "name": "Rathian Webbing", "quantity": 2 },
+      { "name": "Flame Sac", "quantity": 1 }
+    ]
+  }]
+}

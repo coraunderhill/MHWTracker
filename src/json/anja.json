@@ -1,0 +1,66 @@
+{
+  "name": "Anja",
+  "defense": 20,
+  "fire": 3,
+  "water": -3,
+  "thunder": -1,
+  "ice": -1,
+  "dragon": 0,
+  "items": [
+    {
+      "slot": "head",
+      "name": "Anja Helm",
+      "materials": [
+        { "name": "Anjanath Pelt", "quantity": 3 },
+        { "name": "Anjanath Scale", "quantity": 3 },
+        { "name": "Anjanath Tail", "quantity": 1 },
+        { "name": "Flame Sac", "quantity": 1 },
+        { "name": "Zenny", "quantity": 1500 }
+      ]
+    },
+    {
+      "slot": "torso",
+      "name": "Anja Mail",
+      "materials": [
+        { "name": "Anjanath Pelt", "quantity": 3 },
+        { "name": "Anjanath Fang", "quantity": 2 },
+        { "name": "Anjanath Nosebone", "quantity": 1 },
+        { "name": "Anjanath Plate", "quantity": 1 },
+        { "name": "Zenny", "quantity": 1500 }
+      ]
+    },
+    {
+      "slot": "arms",
+      "name": "Anja Vambraces",
+      "materials": [
+        { "name": "Anjanath Pelt", "quantity": 2 },
+        { "name": "Anjanath Scale", "quantity": 2 },
+        { "name": "Anjanath Nosebone", "quantity": 1 },
+        { "name": "Monster Bone L", "quantity": 1 },
+        { "name": "Zenny", "quantity": 1500 }
+      ]
+    },
+    {
+      "slot": "waist",
+      "name": "Anja Coil",
+      "materials": [
+        { "name": "Anjanath Scale", "quantity": 2 },
+        { "name": "Anjanath Pelt", "quantity": 1 },
+        { "name": "Anjanath Fang", "quantity": 2 },
+        { "name": "Machalite Ore", "quantity": 2 },
+        { "name": "Zenny", "quantity": 1500 }
+      ]
+    },
+    {
+      "slot": "legs",
+      "name": "Anja Greaves",
+      "materials": [
+        { "name": "Anjanath Scale", "quantity": 2 },
+        { "name": "Anjanath Pelt", "quantity": 1 },
+        { "name": "Flame Sac", "quantity": 1 },
+        { "name": "Machalite Ore", "quantity": 2 },
+        { "name": "Zenny", "quantity": 1500 }
+      ]
+    }
+  ]
+}

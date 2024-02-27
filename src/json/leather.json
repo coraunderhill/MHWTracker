@@ -1,0 +1,54 @@
+{
+  "name": "Leather",
+  "defense": 1,
+  "fire": 2,
+  "water": 0,
+  "thunder": 0,
+  "ice": 0,
+  "dragon": 0,
+  "items": [
+    {
+      "slot": "head",
+      "name": "Leather Headgear",
+      "materials": [
+        { "name": "Iron Ore", "quantity": 2 },
+        { "name": "Zenny", "quantity": 100 }
+      ],
+      "skills": [
+        { "name": "Hunger Resistance", "level": 1 }
+      ]
+    },
+    {
+      "slot": "torso",
+      "name": "Leather Mail",
+      "materials": [
+        { "name": "Iron Ore", "quantity": 1 },
+        { "name": "Zenny", "quantity": 100 }
+      ]
+    },
+    {
+      "slot": "arms",
+      "name": "Leather Gloves",
+      "materials": [
+        { "name": "Iron Ore", "quantity": 1 },
+        { "name": "Zenny", "quantity": 100 }
+      ]
+    },
+    {
+      "slot": "waist",
+      "name": "Leather Belt",
+      "materials": [
+        { "name": "Iron Ore", "quantity": 1 },
+        { "name": "Zenny", "quantity": 100 }
+      ]
+    },
+    {
+      "slot": "legs",
+      "name": "Leather Trousers",
+      "materials": [
+        { "name": "Iron Ore", "quantity": 1 },
+        { "name": "Zenny", "quantity": 100 }
+      ]
+    }
+  ]
+}

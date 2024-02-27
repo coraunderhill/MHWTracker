@@ -1,0 +1,19 @@
+{
+  "name": "Jyura",
+  "defense": 14,
+  "fire": -1,
+  "water": 2,
+  "thunder": -3,
+  "ice": 0,
+  "dragon": 0,
+  "items": [{
+    "slot": "head",
+    "name": "Jyura Helm",
+    "materials": [
+      { "name": "Jyuratodus Scale", "quantity": 2 },
+      { "name": "Jyuratodus Shell", "quantity": 1 },
+      { "name": "Jyuratodus Fin", "quantity": 1 },
+      { "name": "Gajau Skin", "quantity": 3 }
+    ]
+  }]
+}

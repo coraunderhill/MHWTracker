@@ -1,0 +1,23 @@
+{
+  "name": "Gajau",
+  "defense": 12,
+  "fire": 0,
+  "water": 5,
+  "thunder": 0,
+  "ice": 0,
+  "dragon": 0,
+  "items": [
+    {
+      "slot": "legs",
+      "name": "Gajau Boots",
+      "materials": [
+        { "name": "Gajau Skin", "quantity": 4 },
+        { "name": "Gajau Whiskers", "quantity": 2 },
+        { "name": "Zenny", "quantity": 200 }
+      ],
+      "skills": [
+        { "name": "Aquatic Expert", "level": 1 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Gala Suit",
+  "defense": 34,
+  "fire": 1,
+  "water": 1,
+  "thunder": 1,
+  "ice": 1,
+  "dragon": 4,
+  "items": [{
+    "slot": "head",
+    "name": "Gala Suit Top Hat",
+    "materials": [
+      { "name": "Appreciation Ticket", "quantity": 1 },
+      { "name": "Monster Bone+", "quantity": 3 }
+    ]
+  }]
+}

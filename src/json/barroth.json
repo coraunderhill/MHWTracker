@@ -1,0 +1,21 @@
+{
+  "name": "Barroth",
+  "defense": 14,
+  "fire": -3,
+  "water": -1,
+  "thunder": 3,
+  "ice": -1,
+  "dragon": 0,
+  "items": [
+    {
+      "slot": "head",
+      "name": "Barroth Helm",
+      "materials": [
+        { "name": "Barroth Ridge", "quantity": 2 },
+        { "name": "Barroth Tail", "quantity": 1 },
+        { "name": "Barroth Claw", "quantity": 2 },
+        { "name": "Kestodon Shell", "quantity": 2 }
+      ]
+    }
+  ]
+}

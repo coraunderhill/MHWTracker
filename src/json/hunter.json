@@ -1,0 +1,19 @@
+{
+  "name": "Hunter's",
+  "defense": 6,
+  "fire": 2,
+  "water": 2,
+  "thunder": 0,
+  "ice": 0,
+  "dragon": 0,
+  "items": [
+    {
+      "slot": "head",
+      "name": "Hunter's Headgear",
+      "materials": [
+        { "name": "Jagras Hide", "quantity": 2 },
+        { "name": "Jagras Scale", "quantity": 2 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Alloy",
+  "defense": 8,
+  "fire": -2,
+  "water": 1,
+  "thunder": -2,
+  "ice": -2,
+  "dragon": 1,
+  "items": [
+    {
+      "slot": "head",
+      "name": "Alloy Helm",
+      "materials": [
+        { "name": "Machalite Ore", "quantity": 4 },
+        { "name": "Iron Ore", "quantity": 4 },
+        { "name": "Earth Crystal", "quantity": 2 },
+        { "name": "Zenny", "quantity": 500 }
+      ],
+      "skills": [
+        { "name": "Windproof", "level": 1 }
+      ]
+    },
+    {
+      "slot": "torso",
+      "name": "Alloy Mail",
+      "materials": [
+        { "name": "Machalite Ore", "quantity": 3 },
+        { "name": "Iron Ore", "quantity": 6 },
+        { "name": "Earth Crystal", "quantity": 1 },
+        { "name": "Zenny", "quantity": 500 }
+      ],
+      "skills": [
+        { "name": "Water Resistance", "level": 1 }
+      ]
+    },
+    {
+      "slot": "arms",
+      "name": "Alloy Vambraces",
+      "materials": [
+        { "name": "Machalite Ore", "quantity": 3 },
+        { "name": "Iron Ore", "quantity": 6 },
+        { "name": "Earth Crystal", "quantity": 1 },
+        { "name": "Zenny", "quantity": 500 }
+      ],
+      "skills": [
+        { "name": "Defense Boost", "level": 1 }
+      ]
+    },
+    {
+      "slot": "legs",
+      "name": "Alloy Greaves",
+      "materials": [
+        { "name": "Machalite Ore", "quantity": 3 },
+        { "name": "Iron Ore", "quantity": 6 },
+        { "name": "Earth Crystal", "quantity": 1 },
+        { "name": "Zenny", "quantity": 500 }
+      ],
+      "skills": [
+        { "name": "Speed Sharpening", "level": 1 }
+      ]
+    }
+  ]
+}

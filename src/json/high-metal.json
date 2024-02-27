@@ -1,0 +1,18 @@
+{
+  "name": "High Metal",
+  "defense": 18,
+  "fire": 0,
+  "water": -1,
+  "thunder": -2,
+  "ice": 3,
+  "dragon": 0,
+  "items": [{
+    "slot": "head",
+    "name": "High Metal Helm",
+    "materials": [
+      { "name": "Dragonite Ore", "quantity": 2 },
+      { "name": "Machalite Ore", "quantity": 1 },
+      { "name": "Iron Ore", "quantity": 6 }
+    ]
+  }]
+}

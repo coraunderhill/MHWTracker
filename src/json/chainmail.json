@@ -1,0 +1,54 @@
+{
+  "name": "Chainmail",
+  "defense": 2,
+  "fire": 0,
+  "water": 2,
+  "thunder": 0,
+  "ice": 0,
+  "dragon": 0,
+  "items": [
+    {
+      "slot": "head",
+      "name": "Chainmail Headgear",
+      "materials": [
+        { "name": "Iron Ore", "quantity": 2 },
+        { "name": "Zenny", "quantity": 100 }
+      ],
+      "skills": [
+        { "name": "Master Gatherer", "level": 1 }
+      ]
+    },
+    {
+      "slot": "torso",
+      "name": "Chainmail Vest",
+      "materials": [
+        { "name": "Iron Ore", "quantity": 1 },
+        { "name": "Zenny", "quantity": 100 }
+      ]
+    },
+    {
+      "slot": "arms",
+      "name": "Chainmail Gloves",
+      "materials": [
+        { "name": "Iron Ore", "quantity": 1 },
+        { "name": "Zenny", "quantity": 100 }
+      ]
+    },
+    {
+      "slot": "waist",
+      "name": "Chainmail Belt",
+      "materials": [
+        { "name": "Iron Ore", "quantity": 1 },
+        { "name": "Zenny", "quantity": 100 }
+      ]
+    },
+    {
+      "slot": "legs",
+      "name": "Chainmail Trousers",
+      "materials": [
+        { "name": "Iron Ore", "quantity": 1 },
+        { "name": "Zenny", "quantity": 100 }
+      ]
+    }
+  ]
+}
