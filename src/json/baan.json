@@ -1,0 +1,81 @@
+{
+  "name": "Baan",
+  "defense": 24,
+  "fire": 0,
+  "water": 2,
+  "thunder": 0,
+  "ice": -1,
+  "dragon": -2,
+  "items": [
+    {
+      "slot": "head",
+      "name": "Baan Helm",
+      "materials": [
+        { "name": "Radobaan Shell", "quantity": 3 },
+        { "name": "Radobaan Oilshell", "quantity": 2 },
+        { "name": "Wyvern Bonemass", "quantity": 2 },
+        { "name": "Radobaan Marrow", "quantity": 1 },
+        { "name": "Zenny", "quantity": 1500 }
+      ],
+      "skills": [
+        { "name": "Slugger", "level": 1 }
+      ]
+    },
+    {
+      "slot": "torso",
+      "name": "Baan Mail",
+      "materials": [
+        { "name": "Radobaan Scale", "quantity": 2 },
+        { "name": "Radobaan Shell", "quantity": 1 },
+        { "name": "Radobaan Oilshell", "quantity": 1 },
+        { "name": "Sleep Sac", "quantity": 1 },
+        { "name": "Zenny", "quantity": 1500 }
+      ],
+      "skills": [
+        { "name": "Sleep Resistance", "level": 1 }
+      ]
+    },
+    {
+      "slot": "arms",
+      "name": "Baan Vambraces",
+      "materials": [
+        { "name": "Radobaan Scale", "quantity": 2 },
+        { "name": "Radobaan Shell", "quantity": 1 },
+        { "name": "Radobaan Oilshell", "quantity": 1 },
+        { "name": "Sturdy Bone", "quantity": 3 },
+        { "name": "Zenny", "quantity": 1500 }
+      ],
+      "skills": [
+        { "name": "Sleep Attack", "level": 1 }
+      ]
+    },
+    {
+      "slot": "waist",
+      "name": "Baan Coil",
+      "materials": [
+        { "name": "Radobaan Scale", "quantity": 2 },
+        { "name": "Radobaan Oilshell", "quantity": 1 },
+        { "name": "Sleep Sac", "quantity": 1 },
+        { "name": "Monster Bone L", "quantity": 3 },
+        { "name": "Zenny", "quantity": 1500 }
+      ],
+      "skills": [
+        { "name": "Guard", "level": 1 }
+      ]
+    },
+    {
+      "slot": "legs",
+      "name": "Baan Greaves",
+      "materials": [
+        { "name": "Radobaan Shell", "quantity": 2 },
+        { "name": "Radobaan Scale", "quantity": 2 },
+        { "name": "Wyvern Bonemass", "quantity": 2 },
+        { "name": "Warped Bone", "quantity": 2 },
+        { "name": "Zenny", "quantity": 1500 }
+      ],
+      "skills": [
+        { "name": "Bleeding Resistence", "level": 1 }
+      ]
+    }
+  ]
+}
