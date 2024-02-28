@@ -1,0 +1,81 @@
+{
+  "name": "Butterfly",
+  "defense": 22,
+  "fire": -1,
+  "water": -1,
+  "thunder": 2,
+  "ice": 0,
+  "dragon": 2,
+  "items": [
+    {
+      "slot": "head",
+      "name": "Butterfly Vertex",
+      "materials": [
+        { "name": "Great Hornfly", "quantity": 1 },
+        { "name": "Dragonite Ore", "quantity": 2 },
+        { "name": "Coral Crystal", "quantity": 2 },
+        { "name": "Flame Sac", "quantity": 1 },
+        { "name": "Zenny", "quantity": 1500 }
+      ],
+      "skills": [
+        { "name": "Evade Window", "level": 1 }
+      ]
+    },
+    {
+      "slot": "torso",
+      "name": "Butterfly Thorax",
+      "materials": [
+        { "name": "Great Hornfly", "quantity": 1 },
+        { "name": "Earth Crystal", "quantity": 2 },
+        { "name": "Coral Crystal", "quantity": 2 },
+        { "name": "Flame Sac", "quantity": 1 },
+        { "name": "Zenny", "quantity": 1500 }
+      ],
+      "skills": [
+        { "name": "Quick Sheath", "level": 1 }
+      ]
+    },
+    {
+      "slot": "arms",
+      "name": "Butterfly Brachia",
+      "materials": [
+        { "name": "Great Hornfly", "quantity": 1 },
+        { "name": "Dragonite Ore", "quantity": 2 },
+        { "name": "Coral Crystal", "quantity": 2 },
+        { "name": "Aqua Sac", "quantity": 1 },
+        { "name": "Zenny", "quantity": 1500 }
+      ],
+      "skills": [
+        { "name": "Leap of Faith", "level": 1 }
+      ]
+    },
+    {
+      "slot": "waist",
+      "name": "Butterfly Elytra",
+      "materials": [
+        { "name": "Great Hornfly", "quantity": 1 },
+        { "name": "Earth Crystal", "quantity": 2 },
+        { "name": "Monster Fluid", "quantity": 1 },
+        { "name": "Electro Sac", "quantity": 1 },
+        { "name": "Zenny", "quantity": 1500 }
+      ],
+      "skills": [
+        { "name": "Honey Hunter", "level": 1 }
+      ]
+    },
+    {
+      "slot": "legs",
+      "name": "Butterfly Crura",
+      "materials": [
+        { "name": "Great Hornfly", "quantity": 1 },
+        { "name": "Dragonite Ore", "quantity": 2 },
+        { "name": "Monster Fluid", "quantity": 3 },
+        { "name": "Paralysis Sac", "quantity": 1 },
+        { "name": "Zenny", "quantity": 1500 }
+      ],
+      "skills": [
+        { "name": "Forager's Luck", "level": 1 }
+      ]
+    }
+  ]
+}
