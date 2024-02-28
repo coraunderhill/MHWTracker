@@ -14,7 +14,67 @@
         { "name": "Barroth Ridge", "quantity": 2 },
         { "name": "Barroth Tail", "quantity": 1 },
         { "name": "Barroth Claw", "quantity": 2 },
-        { "name": "Kestodon Shell", "quantity": 2 }
+        { "name": "Kestodon Shell", "quantity": 2 },
+        { "name": "Zenny", "quantity": 500 }
+      ],
+      "skills": [
+        { "name": "Guard", "level": 1 }
+      ]
+    },
+    {
+      "slot": "torso",
+      "name": "Barroth Mail",
+      "materials": [
+        { "name": "Barroth Shell", "quantity": 2 },
+        { "name": "Barroth Ridge", "quantity": 1 },
+        { "name": "Barroth Claw", "quantity": 1 },
+        { "name": "Boulder Bone", "quantity": 1 },
+        { "name": "Zenny", "quantity": 500 }
+      ],
+      "skills": [
+        { "name": "Stamina Thief", "level": 1 }
+      ]
+    },
+    {
+      "slot": "arms",
+      "name": "Barroth Vambraces",
+      "materials": [
+        { "name": "Barroth Ridge", "quantity": 2 },
+        { "name": "Barroth Tail", "quantity": 1 },
+        { "name": "Barroth Claw", "quantity": 2 },
+        { "name": "Kestodon Shell", "quantity": 2 },
+        { "name": "Zenny", "quantity": 500 }
+      ],
+      "skills": [
+        { "name": "Marathon Runner", "level": 1 }
+      ]
+    },
+    {
+      "slot": "waist",
+      "name": "Barroth Coil",
+      "materials": [
+        { "name": "Barroth Ridge", "quantity": 2 },
+        { "name": "Barroth Scalp", "quantity": 1 },
+        { "name": "Barroth Shell", "quantity": 2 },
+        { "name": "Fertile Mud", "quantity": 2 },
+        { "name": "Zenny", "quantity": 500 }
+      ],
+      "skills": [
+        { "name": "Muck Resistance", "level": 1 }
+      ]
+    },
+    {
+      "slot": "legs",
+      "name": "Barroth Greaves",
+      "materials": [
+        { "name": "Barroth Ridge", "quantity": 2 },
+        { "name": "Barroth Scalp", "quantity": 1 },
+        { "name": "Barroth Shell", "quantity": 1 },
+        { "name": "Fertile Mud", "quantity": 2 },
+        { "name": "Zenny", "quantity": 500 }
+      ],
+      "skills": [
+        { "name": "Stun Resistence", "level": 1 }
       ]
     }
   ]
