@@ -1,5 +1,5 @@
-// Import modules
-import clean from '../js/sanitize';
+// Import components
+import Material from './Material.jsx';
 
 /**
  * Shows required crafting materials
@@ -15,11 +15,11 @@ const Requirements = ({ items }) => {
           {items.map(material => {
 
             return (
-              <li key={material.name} className={clean(material.name)}>
-                {material.name}
-                &nbsp;
-                <span className='quantity'>x{material.quantity}</span>
-              </li>
+              <Material
+                key={material.name}
+                name={material.name}
+                quantity={material.quantity}
+              />
             );
 
           })}
