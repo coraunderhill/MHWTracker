@@ -6,12 +6,72 @@
   "thunder": 1,
   "ice": 1,
   "dragon": 4,
-  "items": [{
-    "slot": "head",
-    "name": "Gala Suit Top Hat",
-    "materials": [
-      { "name": "Appreciation Ticket", "quantity": 1 },
-      { "name": "Monster Bone+", "quantity": 3 }
-    ]
-  }]
+  "bonus": {
+    "name": "Astera Blessing",
+    "piecesRequired": 5,
+    "skill": "Great Luck",
+    "level": 5
+  },
+  "items": [
+    {
+      "slot": "head",
+      "name": "Gala Suit Top Hat",
+      "materials": [
+        { "name": "Appreciation Ticket", "quantity": 1 },
+        { "name": "Monster Bone+", "quantity": 3 },
+        { "name": "Zenny", "quantity": 3000 }
+      ],
+      "skills": [
+        { "name": "Critical Boost", "level": 1 }
+      ]
+    },
+    {
+      "slot": "torso",
+      "name": "Gala Suit Jacket",
+      "materials": [
+        { "name": "Appreciation Ticket", "quantity": 1 },
+        { "name": "Monster Bone+", "quantity": 2 },
+        { "name": "Zenny", "quantity": 3000 }
+      ],
+      "skills": [
+        { "name": "Critical Draw", "level": 1 }
+      ]
+    },
+    {
+      "slot": "arms",
+      "name": "Gala Suit Cuffs",
+      "materials": [
+        { "name": "Appreciation Ticket", "quantity": 1 },
+        { "name": "Monster Bone+", "quantity": 2 },
+        { "name": "Zenny", "quantity": 3000 }
+      ],
+      "skills": [
+        { "name": "Maximum Might", "level": 1 }
+      ]
+    },
+    {
+      "slot": "waist",
+      "name": "Gala Suit Tail",
+      "materials": [
+        { "name": "Appreciation Ticket", "quantity": 1 },
+        { "name": "Monster Bone+", "quantity": 1 },
+        { "name": "Zenny", "quantity": 3000 }
+      ],
+      "skills": [
+        { "name": "Slinger Capacity", "level": 1 }
+      ]
+    },
+    {
+      "slot": "legs",
+      "name": "Gala Suit Slacks",
+      "materials": [
+        { "name": "Appreciation Ticket", "quantity": 1 },
+        { "name": "Monster Bone+", "quantity": 1 },
+        { "name": "Zenny", "quantity": 3000 }
+      ],
+      "skills": [
+        { "name": "Divine Blessing", "level": 1 }
+      ]
+    }
+  ]
 }
