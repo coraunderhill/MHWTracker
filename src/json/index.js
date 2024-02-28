@@ -1,9 +1,12 @@
 // Import JSON armor sets
 import alloy from './alloy.json';
 import anja from './anja.json';
+import baan from './baan.json';
 import barroth from './barroth.json';
 import bone from './bone.json';
+import butterfly from './butterfly.json';
 import chainmail from './chainmail.json';
+import diablos from './diablos.json';
 import gajau from './gajau.json';
 import galaSuit from './gala-suit.json';
 import highMetal from './high-metal.json';
@@ -24,9 +27,12 @@ import vespoid from './vespoid.json';
 const imports = [
   alloy,
   anja,
+  baan,
   barroth,
   bone,
+  butterfly,
   chainmail,
+  diablos,
   gajau,
   galaSuit,
   highMetal,
