@@ -6,6 +6,12 @@
   "thunder": -1,
   "ice": -1,
   "dragon": 0,
+  "bonus": {
+    "name": "Anjanath Power",
+    "piecesRequired": 3,
+    "skill": "Adrenaline",
+    "level": 3
+  },
   "items": [
     {
       "slot": "head",
@@ -16,6 +22,9 @@
         { "name": "Anjanath Tail", "quantity": 1 },
         { "name": "Flame Sac", "quantity": 1 },
         { "name": "Zenny", "quantity": 1500 }
+      ],
+      "skills": [
+        { "name": "Fire Attack", "level": 1 }
       ]
     },
     {
@@ -27,6 +36,9 @@
         { "name": "Anjanath Nosebone", "quantity": 1 },
         { "name": "Anjanath Plate", "quantity": 1 },
         { "name": "Zenny", "quantity": 1500 }
+      ],
+      "skills": [
+        { "name": "Marathon Runner", "level": 1 }
       ]
     },
     {
@@ -38,6 +50,9 @@
         { "name": "Anjanath Nosebone", "quantity": 1 },
         { "name": "Monster Bone L", "quantity": 1 },
         { "name": "Zenny", "quantity": 1500 }
+      ],
+      "skills": [
+        { "name": "Special Ammo Boost", "level": 1 }
       ]
     },
     {
@@ -49,6 +64,9 @@
         { "name": "Anjanath Fang", "quantity": 2 },
         { "name": "Machalite Ore", "quantity": 2 },
         { "name": "Zenny", "quantity": 1500 }
+      ],
+      "skills": [
+        { "name": "Fire Resistance", "level": 1 }
       ]
     },
     {
@@ -60,6 +78,9 @@
         { "name": "Flame Sac", "quantity": 1 },
         { "name": "Machalite Ore", "quantity": 2 },
         { "name": "Zenny", "quantity": 1500 }
+      ],
+      "skills": [
+        { "name": "Artillery", "level": 1 }
       ]
     }
   ]
