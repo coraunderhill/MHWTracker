@@ -1,0 +1,87 @@
+{
+  "name": "Diablos",
+  "defense": 32,
+  "fire": 3,
+  "water": -2,
+  "thunder": 0,
+  "ice": -3,
+  "dragon": 2,
+  "bonus": {
+    "name": "Diablos Power",
+    "piecesRequired": 3,
+    "skill": "Bludgeoner",
+    "level": 3
+  },
+  "items": [
+    {
+      "slot": "head",
+      "name": "Diablos Helm",
+      "materials": [
+        { "name": "Diablos Ridge", "quantity": 3 },
+        { "name": "Diablos Fang", "quantity": 2 },
+        { "name": "Twisted Horn", "quantity": 1 },
+        { "name": "Diablos Marrow", "quantity": 1 },
+        { "name": "Zenny", "quantity": 9000 }
+      ],
+      "skills": [
+        { "name": "Critical Draw", "level": 1 }
+      ]
+    },
+    {
+      "slot": "torso",
+      "name": "Diablos Mail",
+      "materials": [
+        { "name": "Diablos Shell", "quantity": 2 },
+        { "name": "Diablos Ridge", "quantity": 1 },
+        { "name": "Twisted Horn", "quantity": 2 },
+        { "name": "Monster Bone+", "quantity": 3 },
+        { "name": "Zenny", "quantity": 9000 }
+      ],
+      "skills": [
+        { "name": "Slugger", "level": 1 }
+      ]
+    },
+    {
+      "slot": "arms",
+      "name": "Diablos Vambraces",
+      "materials": [
+        { "name": "Diablos Ridge", "quantity": 2 },
+        { "name": "Diablos Shell", "quantity": 2 },
+        { "name": "Diablos Tailcase", "quantity": 1 },
+        { "name": "Lightcrystal", "quantity": 1 },
+        { "name": "Zenny", "quantity": 9000 }
+      ],
+      "skills": [
+        { "name": "Heroics", "level": 1 }
+      ]
+    },
+    {
+      "slot": "waist",
+      "name": "Diablos Coil",
+      "materials": [
+        { "name": "Diablos Shell", "quantity": 1 },
+        { "name": "Diablos Ridge", "quantity": 1 },
+        { "name": "Diablos Fang", "quantity": 1 },
+        { "name": "Monster Bone L", "quantity": 2 },
+        { "name": "Zenny", "quantity": 9000 }
+      ],
+      "skills": [
+        { "name": "Marathon Runner", "level": 1 }
+      ]
+    },
+    {
+      "slot": "legs",
+      "name": "Diablos Greaves",
+      "materials": [
+        { "name": "Diablos Ridge", "quantity": 2 },
+        { "name": "Diablos Shell", "quantity": 1 },
+        { "name": "Twisted Horn", "quantity": 1 },
+        { "name": "Monster Bone+", "quantity": 2 },
+        { "name": "Zenny", "quantity": 9000 }
+      ],
+      "skills": [
+        { "name": "Tremor Resistance", "level": 1 }
+      ]
+    }
+  ]
+}
