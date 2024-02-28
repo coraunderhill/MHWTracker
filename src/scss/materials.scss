@@ -44,15 +44,19 @@
     }
   }
 
+  .aqua-sac,
+  .coral-crystal,
   [class^='legiana']:not(.legiana-gem),
   .machalite-ore,
+  .sleep-sac,
   [class^='tzitzi-ya-ku'] {
     @include material-borders($blue);
     background: $blue;
     color: #fff;
   }
 
-  .fertile-mud {
+  .fertile-mud,
+  .warped-bone {
     @include material-borders($brown);
     background: $brown;
     color: #fff;
@@ -125,6 +129,7 @@
     background: $silver;
   }
 
+  .monster-fluid,
   [class^='tobi-kadachi'],
   .wyvern-gem {
     @include material-borders($sky);
@@ -133,6 +138,7 @@
 
   .appreciation-ticket,
   [class^='barroth'],
+  .boulder-bone,
   [class^='gajau'],
   .girros-fang,
   .high-quality-pelt,
@@ -140,6 +146,7 @@
   [class^='kestodon'],
   [class^='kulu-ya-ku'],
   .monster-bone-plus,
+  .twisted-horn,
   [class^='vespoid'],
   [class^='wingdrake'] {
     @include material-borders($tan);
@@ -147,14 +154,19 @@
   }
 
   .electro-sac,
+  .great-hornfly,
   .monster-bone-l,
   .monster-bone-m,
-  .monster-bone-s {
+  .monster-bone-s,
+  .paralysis-sac {
     @include material-borders($yellow);
     background: $yellow;
   }
 
-  .earth-crystal {
+  .earth-crystal,
+  [class*='radobaan'],
+  .sturdy-bone,
+  .wyvern-bonemass {
     @include material-borders(#fff);
     background: #fff;
   }
