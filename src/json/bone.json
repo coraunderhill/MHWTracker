@@ -12,7 +12,59 @@
       "name": "Bone Helm",
       "materials": [
         { "name": "Monster Bone S", "quantity": 2 },
-        { "name": "Ancient Bone", "quantity": 2 }
+        { "name": "Ancient Bone", "quantity": 2 },
+        { "name": "Zenny", "quantity": 200 }
+      ],
+      "skills": [
+        { "name": "Health Boost", "level": 1 }
+      ]
+    },
+    {
+      "slot": "torso",
+      "name": "Bone Mail",
+      "materials": [
+        { "name": "Monster Bone S", "quantity": 1 },
+        { "name": "Ancient Bone", "quantity": 1 },
+        { "name": "Zenny", "quantity": 200 }
+      ],
+      "skills": [
+        { "name": "Attack Boost", "level": 1 }
+      ]
+    },
+    {
+      "slot": "arms",
+      "name": "Bone Vambraces",
+      "materials": [
+        { "name": "Monster Bone S", "quantity": 3 },
+        { "name": "Kestodon Shell", "quantity": 2 },
+        { "name": "Zenny", "quantity": 200 }
+      ],
+      "skills": [
+        { "name": "Slugger", "level": 1 }
+      ]
+    },
+    {
+      "slot": "waist",
+      "name": "Bone Coil",
+      "materials": [
+        { "name": "Monster Bone S", "quantity": 1 },
+        { "name": "Kestodon Shell", "quantity": 1 },
+        { "name": "Zenny", "quantity": 200 }
+      ],
+      "skills": [
+        { "name": "Horn Maestro", "level": 1 }
+      ]
+    },
+    {
+      "slot": "legs",
+      "name": "Bone Greaves",
+      "materials": [
+        { "name": "Monster Bone S", "quantity": 1 },
+        { "name": "Ancient Bone", "quantity": 1 },
+        { "name": "Zenny", "quantity": 200 }
+      ],
+      "skills": [
+        { "name": "Entomologist", "level": 1 }
       ]
     }
   ]
