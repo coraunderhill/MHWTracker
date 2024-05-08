@@ -1,0 +1,72 @@
+{
+  "name": "Harvest",
+  "rarity": 1,
+  "defense": 26,
+  "fire": 4,
+  "water": 1,
+  "thunder": 1,
+  "ice": 1,
+  "dragon": 1,
+  "items": [
+    {
+      "slot": "head",
+      "name": "Harvest Flor",
+      "materials": [
+        { "name": "Sturdy Bone", "quantity": 1 },
+        { "name": "Autumn Harvest Ticket", "quantity": 1 },
+        { "name": "Zenny", "quantity": 1500 }
+      ],
+      "skills": [
+        { "name": "Tremor Resistance", "level": 1 }
+      ]
+    },
+    {
+      "slot": "torso",
+      "name": "Harvest Tronco",
+      "materials": [
+        { "name": "Sturdy Bone", "quantity": 1 },
+        { "name": "Autumn Harvest Ticket", "quantity": 1 },
+        { "name": "Zenny", "quantity": 1500 }
+      ],
+      "skills": [
+        { "name": "Focus", "level": 1 }
+      ]
+    },
+    {
+      "slot": "arms",
+      "name": "Harvest Trama",
+      "materials": [
+        { "name": "Sturdy Bone", "quantity": 1 },
+        { "name": "Autumn Harvest Ticket", "quantity": 1 },
+        { "name": "Zenny", "quantity": 1500 }
+      ],
+      "skills": [
+        { "name": "Resentment", "level": 1 }
+      ]
+    },
+    {
+      "slot": "waist",
+      "name": "Harvest Hoja",
+      "materials": [
+        { "name": "Sturdy Bone", "quantity": 1 },
+        { "name": "Autumn Harvest Ticket", "quantity": 1 },
+        { "name": "Zenny", "quantity": 1500 }
+      ],
+      "skills": [
+        { "name": "Constitution", "level": 1 }
+      ]
+    },
+    {
+      "slot": "legs",
+      "name": "Harvest Raiz",
+      "materials": [
+        { "name": "Sturdy Bone", "quantity": 1 },
+        { "name": "Autumn Harvest Ticket", "quantity": 1 },
+        { "name": "Zenny", "quantity": 1500 }
+      ],
+      "skills": [
+        { "name": "Muchroomancer", "level": 1 }
+      ]
+    }
+  ]
+}

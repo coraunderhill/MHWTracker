@@ -1,0 +1,72 @@
+{
+  "name": "Diver",
+  "rarity": 3,
+  "defense": 22,
+  "fire": 1,
+  "water": 4,
+  "thunder": 1,
+  "ice": 1,
+  "dragon": 1,
+  "items": [
+    {
+      "slot": "head",
+      "name": "Diver's Mask",
+      "materials": [
+        { "name": "Coral Crystal", "quantity": 1 },
+        { "name": "Summer Twilight Ticket", "quantity": 1 },
+        { "name": "Zenny", "quantity": 1500 }
+      ],
+      "skills": [
+        { "name": "Marathon Runner", "level": 1 }
+      ]
+    },
+    {
+      "slot": "torso",
+      "name": "Diver's Suit",
+      "materials": [
+        { "name": "Coral Crystal", "quantity": 1 },
+        { "name": "Summer Twilight Ticket", "quantity": 1 },
+        { "name": "Zenny", "quantity": 1500 }
+      ],
+      "skills": [
+        { "name": "Critical Eye", "level": 1 }
+      ]
+    },
+    {
+      "slot": "arms",
+      "name": "Diver's Braces",
+      "materials": [
+        { "name": "Coral Crystal", "quantity": 1 },
+        { "name": "Summer Twilight Ticket", "quantity": 1 },
+        { "name": "Zenny", "quantity": 1500 }
+      ],
+      "skills": [
+        { "name": "Quick Sheath", "level": 1 }
+      ]
+    },
+    {
+      "slot": "waist",
+      "name": "Diver's Belt",
+      "materials": [
+        { "name": "Coral Crystal", "quantity": 1 },
+        { "name": "Summer Twilight Ticket", "quantity": 1 },
+        { "name": "Zenny", "quantity": 1500 }
+      ],
+      "skills": [
+        { "name": "Aquatic Expert", "level": 1 }
+      ]
+    },
+    {
+      "slot": "legs",
+      "name": "Diver's Boots",
+      "materials": [
+        { "name": "Coral Crystal", "quantity": 1 },
+        { "name": "Summer Twilight Ticket", "quantity": 1 },
+        { "name": "Zenny", "quantity": 1500 }
+      ],
+      "skills": [
+        { "name": "Hunger Resistance", "level": 1 }
+      ]
+    }
+  ]
+}

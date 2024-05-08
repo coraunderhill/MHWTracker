@@ -6,8 +6,10 @@ import bone from './bone.json';
 import butterfly from './butterfly.json';
 import chainmail from './chainmail.json';
 import diablos from './diablos.json';
+import diver from './diver.json';
 import gajau from './gajau.json';
 import galaSuit from './gala-suit.json';
+import harvest from './harvest.json';
 import highMetal from './high-metal.json';
 import hunter from './hunter.json';
 import jagras from './jagras.json';
@@ -32,8 +34,10 @@ const imports = [
   butterfly,
   chainmail,
   diablos,
+  diver,
   gajau,
   galaSuit,
+  harvest,
   highMetal,
   hunter,
   jagras,
