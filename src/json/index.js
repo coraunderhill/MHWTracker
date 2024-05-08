@@ -47,10 +47,11 @@ const imports = [
   vespoid,
 ];
 
-/**
- * List of armor pieces to be exported
- */
-const result = [];
+/** List of individual armor pieces */
+const items = [];
+
+/** List of armor set names */
+const sets = [];
 
 // Iterate over each armor set
 imports.map(set => {
@@ -65,6 +66,8 @@ imports.map(set => {
     dragon
   } = set;
 
+  sets.push(name);
+
   // Iterate over each item in the set
   set.items.map(item => {
 
@@ -78,11 +81,11 @@ imports.map(set => {
     item.dragon = dragon;
 
     // ... then push it into the result array
-    result.push(item);
+    items.push(item);
 
   });
 
 });
 
 // Exports a single array containing every item from all sets
-export default result;
+export { items, sets };

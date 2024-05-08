@@ -1,11 +1,11 @@
 // Import components
 import ArmorListItem from './ArmorListItem.jsx';
 
-// Import armor sets
-import sets from '../json/index.js';
+// Import armor items
+import { items } from '../json/index.js';
 
 /**
- * List containing armor sets
+ * List containing armor items
  * @param {Object} props
  * @param {Function} props.materialsDispatcher  React dispatcher for materials
  * @param {Function} props.selectionDispatcher  React disaptcher for item selection
@@ -42,7 +42,7 @@ const ArmorList = ({ materialsDispatcher, selectionDispatcher, selections }) => 
 
   }
 
-  return sets.map(item => {
+  return items.map(item => {
 
     return (
       <ArmorListItem
