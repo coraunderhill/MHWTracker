@@ -4,9 +4,9 @@
 
 #requirements-container {
   height: 100vh;
-  overflow: hidden;
+  max-width: $requirements-width;
   position: relative;
-  width: 350px;
+  width: 100%;
 }
 
 #requirements {
@@ -14,8 +14,10 @@
   bottom: 0;
   box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
   overflow-y: scroll;
+  padding: 0.5rem;
   position: fixed;
   top: 0;
+  width: $requirements-width;
 
   h2 {
     color: $cyan;
@@ -26,11 +28,11 @@
   background: $gray;
   border-radius: 0 0 4px 4px;
   box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.1);
+  padding: 0.25rem;
 }
 
 #requirements,
 .materials {
-  padding: 0.25rem;
 
   div, li {
     border-radius: 4px;
