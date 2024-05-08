@@ -58,6 +58,7 @@ imports.map(set => {
 
   const {
     name,
+    rarity,
     defense,
     fire,
     water,
@@ -73,6 +74,7 @@ imports.map(set => {
 
     // Add the set information to the item's properties...
     item.set = name;
+    item.rarity = rarity;
     item.defense = defense;
     item.fire = fire;
     item.water = water;

@@ -17,11 +17,11 @@ const ArmorListItem = ({ item, onSelect, selected }) => {
   /** Sanitized item name for CSS classes */
   const itemName = clean(item.name);
 
-  /** Sanitized armor set name for CSS classes */
-  const setName = clean(item.set);
+  /** Rarity tier for CSS classes */
+  const rarity = 'tier-' + item.rarity;
 
   /** Set name with-or-without "selected" based on passed state */
-  const className = !selected ? setName : setName.concat(' selected')
+  const className = !selected ? rarity : rarity.concat(' selected')
 
   return (
     <li

@@ -1,15 +1,16 @@
 // Import modules
+@import './mixins';
 @import './variables';
 
-#armor-list {
-  padding: 16px 0 16px 16px;
+div#armor-list {
+  padding: 1rem 0 1rem 1rem;
   flex-shrink: 2;
 
   ul {
     align-items: flex-start;
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 1rem;
     list-style-type: none;
 
     li {
@@ -43,20 +44,19 @@
       }
 
       &.selected {
-        box-shadow: $shadow-selected;
         transform: scale(1.025, 1.025);
 
         div.name {
-          // background-color: $cyan;
-          // color: #fff;
+          background-color: $magenta !important;
+          color: #fff;
 
           &::before {
-            content: '🚩 ';
+          content: '✅ ';
           }
         }
       }
 
-      .name {
+      div.name {
         border-radius: 4px 4px 0 0;
         font-family: 'Lora', 'Times New Roman', serif;
         font-size: 1.25rem;
@@ -68,53 +68,32 @@
         }
       }
 
-      &.bone,
-      &.chainmail,
-      &.gajau,
-      &.hunters,
-      &.jagras,
-      &.kestodon,
-      &.kulu,
-      &.leather,
-      &.vespoid {
-        .name {
-          background: $tier-1;
+      &.tier-1 {
+
+        div.name {
+          background-color: $tier-1;
           color: #fff;
         }
       }
 
-      &.alloy,
-      &.barroth,
-      &.kadachi,
-      &.jyura,
-      &.pukei {
-        .name {
-          background: $tier-2;
+      &.tier-2 {
+
+        div.name {
+          background-color: $tier-2;
         }
       }
 
-      &.anja,
-      &.baan,
-      &.butterfly,
-      &.girros,
-      &.high-metal,
-      &.hornetaur,
-      &.lumo,
-      &.rathian,
-      &.shamos,
-      &.tzitzi {
-        .name {
-          background: $tier-3;
+      &.tier-3 {
+
+        div.name {
+          background-color: $tier-3;
         }
       }
 
-      &.diablos,
-      &.gala-suit,
-      &.ingot,
-      &.legiana,
-      &.rathalos {
-        .name {
-          background: $tier-4;
+      &.tier-4 {
+
+        div.name {
+          background-color: $tier-4;
         }
       }
     }
