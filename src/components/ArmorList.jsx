@@ -42,18 +42,22 @@ const ArmorList = ({ materialsDispatcher, selectionDispatcher, selections }) => 
 
   }
 
-  return items.map(item => {
-
-    return (
-      <ArmorListItem
-        key={item.name}
-        item={item}
-        onSelect={() => toggle(item.name, item.materials)}
-        selected={isSelected(item.name)}
-      />
-    );
-
-  });
+  return (
+    <ul>
+    {
+      items.map(item => {
+        return (
+          <ArmorListItem
+            key={item.name}
+            item={item}
+            onSelect={() => toggle(item.name, item.materials)}
+            selected={isSelected(item.name)}
+          />
+        )
+      })
+    }
+    </ul>
+  );
 
 }
 

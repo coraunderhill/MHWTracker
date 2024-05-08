@@ -5,6 +5,7 @@ import { materialReducer, selectionReducer } from '../js/reducers.js';
 // Import components
 import ArmorList from './ArmorList.jsx';
 import Requirements from './Requirements.jsx';
+import { sets } from '../json/index.js';
 
 /**
  * Main application container
@@ -17,13 +18,13 @@ const App = () => {
 
   return (
     <div id='container'>
-      <ul id='armor'>
+      <div id='armor-list'>
         <ArmorList
           materialsDispatcher={materialDispatch}
           selections={selected}
           selectionDispatcher={selectionDispatch}
         />
-      </ul>
+      </div>
       <Requirements items={materials} />
     </div>
   );
