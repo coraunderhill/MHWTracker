@@ -6,12 +6,13 @@ import sets from '../json/index.js';
 
 /**
  * List containing armor sets
- * @param {Function} materialsDispatcher  React dispatcher for materials
- * @param {Array} selections              Array of selected items
- * @param {Function} selectionDispatcher  React disaptcher for item selection
+ * @param {Object} props
+ * @param {Function} props.materialsDispatcher  React dispatcher for materials
+ * @param {Function} props.selectionDispatcher  React disaptcher for item selection
+ * @param {Array} props.selections              Array of selected items
  * @returns {React.JSX.Element}
  */
-const ArmorList = ({ materialsDispatcher, selections, selectionDispatcher }) => {
+const ArmorList = ({ materialsDispatcher, selectionDispatcher, selections }) => {
 
   /**
    * Checks if the passed item is in the current state

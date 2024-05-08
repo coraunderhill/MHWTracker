@@ -10,8 +10,9 @@ const commas = i => i.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 
 /**
  * Displays a material divider displaying the name and quantity
- * @param {string} name     Material name
- * @param {number} quantity Quantity required
+ * @param {Object} props
+ * @param {string} props.name     Material name
+ * @param {number} props.quantity Quantity required
  * @returns {React.JSX.Element}
  */
 const Material = ({ name, quantity }) => {

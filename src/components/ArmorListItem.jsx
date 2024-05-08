@@ -6,9 +6,10 @@ import Material from './Material.jsx';
 
 /**
  * List item containing armor piece
- * @param {Object} item       JSON object containing item information
- * @param {Function} onSelect Function to trigger on item selection
- * @param {boolean} selected  Boolean representing selection state
+ * @param {Object} props
+ * @param {Object} props.item       Armor item object
+ * @param {Function} props.onSelect Function to trigger on item selection
+ * @param {boolean} props.selected  Boolean representing selection state
  * @returns {React.JSX.Element}
  */
 const ArmorListItem = ({ item, onSelect, selected }) => {
