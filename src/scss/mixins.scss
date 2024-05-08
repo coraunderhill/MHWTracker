@@ -1,7 +1,30 @@
 // Import modules
 @use 'sass:color';
+@use 'sass:list';
+@use 'sass:selector';
 
-/// Creates a lighter top and darker bottom border
+/// Selects the immediate parent of the current element with passed selectors added
+@mixin direct-parent($with-selectors) {
+  // List of the current selector tree(s)
+  $current-tree: &;
+
+  // Empty list to be added to the root
+  $updated-tree: ();
+
+  // Iterate over each selector tree
+  @each $selector in $current-tree {
+    $parent: list.nth($selector, -1);
+    $parent: selector.append($parent, $with-selectors);
+    $new-tree: list.set-nth($selector, -1, $parent);
+    $updated-tree: list.append($updated-tree, $new-tree, comma);
+  }
+
+  @at-root #{$updated-tree} {
+    @content;
+  }
+}
+
+/// Creates a lighter top and darker bottom border on the current selector
 @mixin material-borders($color) {
   border-bottom: 1px solid color.scale($color, $lightness: -30%);
   border-top: 1px solid color.scale($color, $lightness: 25%);
