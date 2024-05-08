@@ -2,37 +2,37 @@
 @import './mixins';
 @import './variables';
 
-#requirements-container {
+div#requirements-container {
   height: 100vh;
   max-width: $requirements-width;
   position: relative;
   width: 100%;
-}
 
-#requirements {
-  background: rgba(0, 0, 0, 0.3);
-  bottom: 0;
-  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
-  overflow-y: scroll;
-  padding: 0.5rem;
-  position: fixed;
-  top: 0;
-  width: $requirements-width;
+  div#requirements {
+    background: rgba(0, 0, 0, 0.3);
+    bottom: 0;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
+    overflow-y: scroll;
+    padding: 0.5rem;
+    position: fixed;
+    top: 0;
+    width: $requirements-width;
 
-  h2 {
-    color: $cyan;
+    h2 {
+      color: $cyan;
+    }
   }
 }
 
-.materials {
+div.materials {
   background: $gray;
   border-radius: 0 0 4px 4px;
   box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.1);
   padding: 0.25rem;
 }
 
-#requirements,
-.materials {
+div#requirements,
+div.materials {
 
   div, li {
     border-radius: 4px;
@@ -47,129 +47,130 @@
     }
   }
 
-  .aqua-sac,
-  .coral-crystal,
-  [class^='legiana']:not(.legiana-gem),
-  .machalite-ore,
-  .sleep-sac,
-  [class^='tzitzi-ya-ku'] {
+  div.aqua-sac,
+  div.coral-crystal,
+  div[class^='legiana']:not(.legiana-gem),
+  div.machalite-ore,
+  div.sleep-sac,
+  div[class^='tzitzi-ya-ku'] {
     @include material-borders($blue);
     background: $blue;
     color: #fff;
   }
 
-  .fertile-mud,
-  .warped-bone {
+  div.fertile-mud,
+  div.warped-bone {
     @include material-borders($brown);
     background: $brown;
     color: #fff;
   }
 
-  [class^='diablos'],
-  [class^='jyuratodus'],
-  .zenny {
+  div.autumn-harvest-ticket,
+  div[class^='diablos'],
+  div[class^='jyuratodus'],
+  div.zenny {
     @include material-borders($gold);
     background: $gold;
   }
 
-  .ancient-bone,
-  .kelbi-horn,
-  [class^='rathian'],
-  .warm-pelt {
+  div.ancient-bone,
+  div.kelbi-horn,
+  div[class^='rathian'],
+  div.warm-pelt {
     @include material-borders($green);
     background: $green;
   }
 
-  [class^='pukei-pukei'] {
+  div[class^='pukei-pukei'] {
     @include material-borders($lime);
     background: $lime;
   }
 
-  [class^='gastrodon'] {
+  div[class^='gastrodon'] {
     @include material-borders($maroon);
     background: $maroon;
   }
 
-  .dragonite-ore,
-  .mosswine {
+  div.dragonite-ore,
+  div.mosswine {
     @include material-borders($olive);
     background: $olive;
     color: #fff;
   }
 
-  .bird-wyvern-gem,
-  .legiana-gem {
+  div.bird-wyvern-gem,
+  div.legiana-gem {
     @include material-borders($periwinkle);
     background: $periwinkle;
   }
 
-  [class^='anjanath'] {
+  div[class^='anjanath'] {
     @include material-borders($pink);
     background: $pink;
   }
 
-  .poison-sac {
+  div.poison-sac {
     @include material-borders($purple);
     background: $purple;
   }
 
-  .flame-sac,
-  [class^='rathalos'],
-  .rath-wingtalon,
-  [class^='shamos'] {
+  div.flame-sac,
+  div[class^='rathalos'],
+  div.rath-wingtalon,
+  div[class^='shamos'] {
     @include material-borders($red);
     background: $red;
     color: #fff;
   }
 
-  [class^='girros']:not(.girros-fang),
-  [class^='hornetaur'],
-  .iron-ore,
-  .lightcrystal,
-  .piercing-claw,
-  .sharp-claw {
+  div[class^='girros']:not(.girros-fang),
+  div[class^='hornetaur'],
+  div.iron-ore,
+  div.lightcrystal,
+  div.piercing-claw,
+  div.sharp-claw {
     @include material-borders($silver);
     background: $silver;
   }
 
-  .monster-fluid,
-  [class^='tobi-kadachi'],
-  .wyvern-gem {
+  div.monster-fluid,
+  div[class^='tobi-kadachi'],
+  div.wyvern-gem {
     @include material-borders($sky);
     background: $sky;
   }
 
-  .appreciation-ticket,
-  [class^='barroth'],
-  .boulder-bone,
-  [class^='gajau'],
-  .girros-fang,
-  .high-quality-pelt,
-  [class*='jagras'],
-  [class^='kestodon'],
-  [class^='kulu-ya-ku'],
-  .monster-bone-plus,
-  .twisted-horn,
-  [class^='vespoid'],
-  [class^='wingdrake'] {
+  div.appreciation-ticket,
+  div[class^='barroth'],
+  div.boulder-bone,
+  div[class^='gajau'],
+  div.girros-fang,
+  div.high-quality-pelt,
+  div[class*='jagras'],
+  div[class^='kestodon'],
+  div[class^='kulu-ya-ku'],
+  div.monster-bone-plus,
+  div.twisted-horn,
+  div[class^='vespoid'],
+  div[class^='wingdrake'] {
     @include material-borders($tan);
     background: $tan;
   }
 
-  .electro-sac,
-  .great-hornfly,
-  .monster-bone-l,
-  .monster-bone-m,
-  .monster-bone-s,
-  .paralysis-sac {
+  div.electro-sac,
+  div.great-hornfly,
+  div.monster-bone-l,
+  div.monster-bone-m,
+  div.monster-bone-s,
+  div.paralysis-sac {
     @include material-borders($yellow);
     background: $yellow;
   }
 
-  .earth-crystal,
-  [class*='radobaan'],
-  .sturdy-bone,
-  .wyvern-bonemass {
+  div.earth-crystal,
+  div[class*='radobaan'],
+  div.sturdy-bone,
+  div.wyvern-bonemass {
     @include material-borders(#fff);
     background: #fff;
   }
