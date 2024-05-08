@@ -1,4 +1,3 @@
-// Import JSON armor sets
 import alloy from './alloy.json';
 import anja from './anja.json';
 import baan from './baan.json';
@@ -22,7 +21,7 @@ import rathian from './rathian.json';
 import vespoid from './vespoid.json';
 
 /**
- * Array of armor set objects
+ * Imported armor set objects
  */
 const imports = [
   alloy,
@@ -49,35 +48,27 @@ const imports = [
 ];
 
 /**
- * Exported array of armor piece objects
+ * List of armor pieces to be exported
  */
 const result = [];
 
-// Iterate over armor set array
+// Iterate over each armor set
 imports.map(set => {
 
-  /**
-   * Name of the armor set
-   * @type {string}
-   */
-  const name = set.name;
+  const {
+    name,
+    defense,
+    fire,
+    water,
+    thunder,
+    ice,
+    dragon
+  } = set;
 
-  /**
-   * Defensive stats of each armor piece
-   * @type {number}
-   */
-  const { defense, fire, water, thunder, ice, dragon } = set;
+  // Iterate over each item in the set
+  set.items.map(item => {
 
-  /**
-   * Array containing set piece objects
-   * @type {Array}
-   */
-  const items = set.items;
-
-  // Iterate over each item object
-  items.map(item => {
-
-    // Add the set information to the object properties...
+    // Add the set information to the item's properties...
     item.set = name;
     item.defense = defense;
     item.fire = fire;
@@ -93,4 +84,5 @@ imports.map(set => {
 
 });
 
+// Exports a single array containing every item from all sets
 export default result;
