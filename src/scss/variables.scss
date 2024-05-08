@@ -31,7 +31,7 @@ $requirements-width: 300px;
 // Shadows
 $shadow-active: 0px 5px 15px rgba(0,0,0,0.3);
 $shadow-inactive: 0px 1px 2px  rgba(0,0,0,0.1);
-$shadow-selected: 0 0 5px $cyan;
+$shadow-selected: 0 0 5px 4px $cyan;
 
 // Transitions
 $transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
