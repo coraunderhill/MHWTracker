@@ -69,7 +69,6 @@ div#armor-list {
       }
 
       &.tier-1 {
-
         div.name {
           background-color: $tier-1;
           color: #fff;
@@ -77,23 +76,68 @@ div#armor-list {
       }
 
       &.tier-2 {
-
         div.name {
           background-color: $tier-2;
         }
       }
 
       &.tier-3 {
-
         div.name {
           background-color: $tier-3;
         }
       }
 
       &.tier-4 {
-
         div.name {
           background-color: $tier-4;
+        }
+      }
+
+      &.tier-5 {
+        div.name {
+          background-color: $tier-5;
+        }
+      }
+
+      &.tier-6 {
+        div.name {
+          background-color: $tier-6;
+        }
+      }
+
+      &.tier-7 {
+        div.name {
+          background-color: $tier-7;
+        }
+      }
+
+      &.tier-8 {
+        div.name {
+          background-color: $tier-8;
+        }
+      }
+
+      &.tier-9 {
+        div.name {
+          background-color: $tier-9;
+        }
+      }
+
+      &.tier-10 {
+        div.name {
+          background-color: $tier-10;
+        }
+      }
+
+      &.tier-11 {
+        div.name {
+          background-color: $tier-11;
+        }
+      }
+
+      &.tier-12 {
+        div.name {
+          background-color: $tier-12;
         }
       }
     }
