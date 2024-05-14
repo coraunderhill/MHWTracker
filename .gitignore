@@ -1,5 +1,6 @@
-# Builds
+# Other
 dist/
+.hintrc
 
 # macOS
 .DS_Store
