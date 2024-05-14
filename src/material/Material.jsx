@@ -21,10 +21,10 @@ const commas = i => i.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 const Material = ({ name, quantity }) => {
 
   /** Sanitized material name for CSS classes */
-  const cleanName = clean(name);
+  const className = clean(name) + ' material';
 
   return (
-    <div className={cleanName}>
+    <div className={className}>
       {name}
       &nbsp;
       <span className='quantity'>x{commas(quantity)}</span>
