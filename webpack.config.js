@@ -19,7 +19,7 @@ const config = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: './src/index.html',
+            template: './src/common/index.html',
         }),
     ],
     module: {
