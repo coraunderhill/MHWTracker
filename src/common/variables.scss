@@ -1,4 +1,4 @@
-$background: rgb(18, 46, 9);
+$app-background: rgb(18, 46, 9);
 
 // Colors
 $blue: rgb(115, 140, 214);
@@ -35,7 +35,7 @@ $tier-11: rgb(242, 199, 55);
 $tier-12: rgb(199, 231, 248);
 
 // Material requirements width
-$requirements-width: 300px;
+$requirements-width: clamp(320px, 20vw, 100%);
 
 // Shadows
 $shadow-active: 0px 5px 15px rgba(0,0,0,0.3);

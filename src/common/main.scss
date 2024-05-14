@@ -11,7 +11,7 @@
 }
 
 body {
-  background: $background;
+  background: $app-background;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -26,9 +26,8 @@ h6 {
   font-weight: 700;
 }
 
-#container {
-  align-items: stretch;
-  display: flex;
-  flex-direction: row;
-  gap: 16px;
+div#container {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: clamp(320px, calc(100vw - 320px), 100%) $requirements-width;
 }

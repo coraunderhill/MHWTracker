@@ -4,17 +4,16 @@
 div#requirements-container {
   height: 100vh;
   position: relative;
-  width: clamp(320px, 350px, 100%);
+  width: $requirements-width;
 
   div#requirements {
     background: rgba(0, 0, 0, 0.3);
     bottom: 0;
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
     overflow-y: scroll;
-    padding: 0.5rem;
+    padding: 8px;
     position: fixed;
     top: 0;
-    width: inherit;
 
     h2 {
       color: $cyan;
