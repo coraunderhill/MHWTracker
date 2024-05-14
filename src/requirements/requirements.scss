@@ -1,0 +1,24 @@
+// Import modules
+@import '../common/variables';
+
+div#requirements-container {
+  height: 100vh;
+  max-width: $requirements-width;
+  position: relative;
+  width: 100%;
+
+  div#requirements {
+    background: rgba(0, 0, 0, 0.3);
+    bottom: 0;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
+    overflow-y: scroll;
+    padding: 0.5rem;
+    position: fixed;
+    top: 0;
+    width: $requirements-width;
+
+    h2 {
+      color: $cyan;
+    }
+  }
+}

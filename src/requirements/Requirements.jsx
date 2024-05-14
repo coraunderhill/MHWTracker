@@ -1,3 +1,6 @@
+// Import stylesheet
+import './requirements.scss';
+
 // Import components
 import Material from '../material/Material.jsx';
 

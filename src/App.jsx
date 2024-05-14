@@ -7,7 +7,7 @@ import { materialReducer, selectionReducer } from './common/reducers.js';
 
 // Import components
 import ArmorList from './armor/ArmorList.jsx';
-import Requirements from './armor/Requirements.jsx';
+import Requirements from './requirements/Requirements.jsx';
 import { sets } from './armor/sets/index.js';
 
 /**
