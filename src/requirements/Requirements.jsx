@@ -46,19 +46,17 @@ const Requirements = ({ items }) => {
     <div id='requirements-container'>
       <div id='requirements' style={{right: scrollbarFix()}}>
         <h2>Material Requirements</h2>
-        <ul>
-          {items.map(material => {
+        {items.map(material => {
 
-            return (
-              <Material
-                key={material.name}
-                name={material.name}
-                quantity={material.quantity}
-              />
-            );
+          return (
+            <Material
+              key={material.name}
+              name={material.name}
+              quantity={material.quantity}
+            />
+          );
 
-          })}
-        </ul>
+        })}
       </div>
     </div>
   );
