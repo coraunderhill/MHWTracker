@@ -3,9 +3,8 @@
 
 div#requirements-container {
   height: 100vh;
-  max-width: $requirements-width;
   position: relative;
-  width: 100%;
+  width: clamp(320px, 350px, 100%);
 
   div#requirements {
     background: rgba(0, 0, 0, 0.3);
@@ -15,7 +14,7 @@ div#requirements-container {
     padding: 0.5rem;
     position: fixed;
     top: 0;
-    width: $requirements-width;
+    width: inherit;
 
     h2 {
       color: $cyan;
