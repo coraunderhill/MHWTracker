@@ -1,11 +1,14 @@
+// Import stylesheet
+import './common/main.scss';
+
 // Import modules
 import { useReducer } from 'react';
-import { materialReducer, selectionReducer } from '../js/reducers.js';
+import { materialReducer, selectionReducer } from './common/reducers.js';
 
 // Import components
-import ArmorList from './ArmorList.jsx';
-import Requirements from './Requirements.jsx';
-import { sets } from '../json/index.js';
+import ArmorList from './armor/ArmorList.jsx';
+import Requirements from './armor/Requirements.jsx';
+import { sets } from './armor/sets/index.js';
 
 /**
  * Main application container

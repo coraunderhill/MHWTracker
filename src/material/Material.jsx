@@ -1,5 +1,8 @@
+// Import stylesheet
+import './materials.scss';
+
 // Import modules
-import clean from '../js/sanitize';
+import clean from '../common/sanitize';
 
 /**
  * Adds comma separation to large numbers

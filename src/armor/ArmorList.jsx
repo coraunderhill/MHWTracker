@@ -1,8 +1,11 @@
+// Import stylesheet
+import './armor.scss';
+
 // Import components
 import ArmorListItem from './ArmorListItem.jsx';
 
 // Import armor items
-import { items } from '../json/index.js';
+import { items } from './sets/index.js';
 
 /**
  * List containing armor items

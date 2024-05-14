@@ -3,10 +3,7 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 
 // Import main React app
-import App from './components/App.jsx';
-
-// Import Sass
-import './index.scss';
+import App from './App.jsx';
 
 const root = createRoot(document.getElementById('MHWTracker'));
 

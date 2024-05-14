@@ -1,6 +1,6 @@
 // Import modules
-@import './mixins';
-@import './variables';
+@import '../common/mixins';
+@import '../common/variables';
 
 div#armor-list {
   padding: 1rem 0 1rem 1rem;

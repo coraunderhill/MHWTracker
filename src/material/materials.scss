@@ -1,6 +1,6 @@
 // Import modules
-@import './mixins';
-@import './variables';
+@import '../common/mixins';
+@import '../common/variables';
 
 div#requirements-container {
   height: 100vh;

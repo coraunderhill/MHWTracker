@@ -1,8 +1,8 @@
 // Import modules
-import clean from '../js/sanitize.js';
+import clean from '../common/sanitize.js';
 
 // Import components
-import Material from './Material.jsx';
+import Material from '../material/Material.jsx';
 
 /**
  * List item containing armor piece

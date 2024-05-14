@@ -1,5 +1,5 @@
 // Import components
-import Material from './Material.jsx';
+import Material from '../material/Material.jsx';
 
 /**
  * Removes the scrollbar from the materials requirements divider
